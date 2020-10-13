@@ -1,0 +1,135 @@
+.Container{
+	display:grid;
+	grid-gap:0px;
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows:repeat(4,auto);
+	grid-template-areas:
+						"header header header"
+						"SlideShow SlideShow SlideShow"
+						"main  main  main"
+						"footer footer footer";
+}
+
+.Header{
+	grid-area:header;
+}
+
+.SlideShow{
+	grid-area:SlideShow;
+}
+
+.Main{
+	grid-area:main;
+	
+}
+.Main_PageSingle{
+	grid-area:main;
+}
+.Footer{
+	grid-area:footer;
+}
+
+
+/***********************Single*************************/
+.ContainerSingle{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+}
+/***********************Single*************************/
+/***********************Page*************************/
+.ContainerPage{
+	display:grid;
+	grid-gap:0px;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows:repeat(4,auto);
+		 grid-template-areas:
+					"header header header"
+					"main main main "
+					"main main main"
+					"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+
+.Main{
+	grid-area:main;
+}
+
+.Footer{
+	grid-area:footer;
+}
+
+
+
+/***********************Option-items*************************/
+.ContainerItems{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+	
+}
+
+.Footer{
+	
+	grid-area:footer;
+}
+
+/***********************Option-items*************************/
+/***********************404****************/
+/* .Container404{ */
+	/* display:grid; */
+	/* grid-gap:0px; */
+/* grid-template-columns: repeat(1,1fr); */
+/* grid-template-rows:repeat(4,auto); */
+
+
+ /* grid-template-areas: */
+	/* "main main  main"; */
+
+	
+/* } */
+
+/* .Main{ */
+	/* grid-area:main; */
+	
+/* } */
+
+/***********************404****************/
+

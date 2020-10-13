@@ -1,0 +1,397 @@
+/* Pc y laptops */
+@media(min-width:900px) and (max-width: 1600px){
+/* .Header{ */
+	/* background:red; */
+	
+	
+/* } */
+.Container{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+}.Main{
+	grid-area:main;
+	
+	
+}
+
+.Aside{
+	
+	grid-area:aside;
+}
+.Footer{
+	
+	grid-area:footer;
+}
+
+.Articulos1Container{
+	background:white;
+margin-bottom:1px; 
+}
+/***********************Single*************************/
+.ContainerSingle{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+}
+
+
+
+}
+/*cierre del mediaQuery
+
+/* Pc y laptops */
+	
+/*landscape--Horizontal*//*pos="-"*/
+	
+	/*Tabletas*/
+@media(min-width:700px) and (max-width: 900px) and (orientation:landscape){
+/* .Header{ */
+	/* background:blue; */
+	
+	
+/* } */
+/**index proncipal**/
+.Container{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+}.Main{
+	grid-area:main;
+	
+	
+}
+
+.Aside{
+	
+	grid-area:aside;
+}
+.Footer{
+	
+	grid-area:footer;
+}
+
+.Articulos1Container{
+	background:white;
+margin-bottom:1px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*Tabletas*/
+
+
+
+/*Telefonos*/
+@media(min-width:480px) and (max-width: 799px) and (orientation:landscape){
+/* .Header{ */
+	/* background:purple; */
+	
+	
+/* } */
+/**index proncipal**/
+.Container{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+}.Main{
+	grid-area:main;
+	
+	
+}
+
+.Aside{
+	
+	grid-area:aside;
+}
+.Footer{
+	
+	grid-area:footer;
+}
+
+.Articulos1Container{
+	background:white;
+margin-bottom:1px; 
+}
+
+
+
+
+	
+}
+
+/*Telefonos*/
+/*landscape--Horizontal*/
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+	/*Portrait--Vertical */ /*pos="|"*/
+	/*Tabletas*/
+@media(min-width:768px) and (max-width: 1023px) and (orientation:portrait){
+	
+/* .Header{ */
+	/* background:green; */
+	
+	
+/* } */
+	
+	/*grid INDEX Principal*/
+.Container{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  aside"
+	"main main aside"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+}.Main{
+	grid-area:main;
+	
+	
+}
+
+.Aside{
+	
+	grid-area:aside;
+}
+.Footer{
+	
+	grid-area:footer;
+}
+
+.Articulos1Container{
+	background:white;
+margin-bottom:1px; 
+}
+
+/*grid INDEX Principal*/
+
+
+	
+	
+	
+}
+
+/*Tabletas*/
+/*Telefonos*/
+
+@media(min-width:320px) and (max-width: 760px) and (orientation:portrait){
+	/* .Header{ */
+	/* background:yellow; */
+	
+	
+/* } */
+
+/*grid INDEX Principal*/
+.Container{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  main"
+	"aside aside aside"
+	"footer footer footer";
+	
+}
+
+.Header{
+	grid-area:header;
+}
+.slideshow-container{
+	
+	grid-area:slide;
+}
+
+.Articulos1Container{
+	grid-area:Articulos1Container;
+	
+	
+}.Main{
+	grid-area:main;
+	
+	
+}
+
+.Aside{
+	
+	grid-area:aside;
+}
+.Footer{
+	
+	grid-area:footer;
+}
+
+.Articulos1Container{
+	background:white;
+margin-bottom:1px; 
+}
+
+/*grid INDEX Principal*/
+/*grid option index*/
+/*grid option index*/
+/*grid Single*/
+.ContainerSingle{
+	display:grid;
+	grid-gap:0px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(4,auto);
+
+
+ grid-template-areas:
+	"header header header"
+	"slide slide slide"
+	"Articulos1Container  Articulos1Container Articulos1Container"
+	"main main  main"
+	"aside aside aside"
+	"footer footer footer";
+
+
+
+/*grid Single*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/*Telefonos*/
+/*portrait--Vertical*/
+
+
